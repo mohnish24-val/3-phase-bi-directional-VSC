@@ -10,6 +10,16 @@ The objective is to achieve controlled active-power transfer at **unity power fa
 
 ---
 
+## Key Features
+Developed the dq0 mathematical model of the 3-phase VSC and L-filter.
+Designed closed-loop AC current control using d–q axis PI controllers with pole-zero cancellation.
+Set iq = 0 for unity power factor and controlled active power through the d-axis current (id).
+Implemented 35 kHz sine-triangle PWM for switching control.
+Simulated bidirectional active-power flow with power references of −5 kW, +1 kW, +5 kW and −5 kW at 0, 0.25, 0.5 and 0.75 s, respectively.
+Verified transitions between rectifier and inverter operation through reversal of active power. 
+
+---
+
 ## ⚙️ System Configuration
 
 ```text
